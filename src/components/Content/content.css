@@ -1,0 +1,49 @@
+.content {
+    position: fixed;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 150px - 129px - 129px);
+    margin-right: 129px;
+    margin-left: 129px;
+}
+.logo {
+    margin-top: 20px;
+    text-align: center;
+}
+.intro {
+    background-color: #EFEFEF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.intro h2 {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 38px;
+    padding-right: calc(100% - 150px - 129px - 129px - 634px);
+    padding-left: calc(100% - 150px - 129px - 129px - 634px);
+
+}
+.intro p {
+    margin: 0;
+    padding-right: calc(100% - 150px - 129px - 129px - 634px - 269px);
+    padding-left: calc(100% - 150px - 129px - 129px - 634px - 269px);
+    padding-top: 18px;
+    padding-bottom: 38px;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+.main p{
+    padding-left: 0;
+    margin-left: 0;
+}
+.card {
+    
+}
+

@@ -1,0 +1,39 @@
+
+.sidebar {
+  background-color: #191718;
+  width: 150px;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 100%;
+}
+li {
+  font-weight: bold;
+  font-size: 16px;
+  border-bottom: 1px solid #5C5C5C;
+}
+
+li a {
+  display: block;
+  color: #AAAAAA;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #5C5C5C;
+  color: white;
+}

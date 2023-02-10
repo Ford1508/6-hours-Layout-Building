@@ -1,0 +1,14 @@
+.footer {
+    z-index: 2;
+    border-top: 1px solid #DEDEDE;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+p {
+    color: #3E3E3E;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 129px;
+    font-family: Roboto;
+}
